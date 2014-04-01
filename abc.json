@@ -1,0 +1,18 @@
+{
+    "name": "Float Box",
+    "comName":"Float_box",
+    "version": "1.0",
+    "desc": "",
+    "tag":"float,fixed",
+    "githubName":"neekey",
+    "author": {
+        "name": "隐若",
+        "email": "yinruo.nyj@taobao.com",
+        "page": ""
+    },
+    "cover": "http://gtms04.alicdn.com/tps/i4/T1zF.lFDXaXXbjCIP0-514-500.png",
+	"flexComboPort":"81",
+	"reserveServerPort":"8080",
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
