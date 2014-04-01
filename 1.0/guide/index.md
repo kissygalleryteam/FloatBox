@@ -1,6 +1,6 @@
 ## 综述
 
-Float Box是一个简单的让你的某些元素在滚出视图后自动浮动在页面顶端的组件。
+FloatBox是一个简单的让你的某些元素在滚出视图后自动浮动在页面顶端的组件。
 
 ![](http://gtms04.alicdn.com/tps/i4/T1zF.lFDXaXXbjCIP0-514-500.png)
 
