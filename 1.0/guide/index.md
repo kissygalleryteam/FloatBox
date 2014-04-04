@@ -6,7 +6,7 @@ FloatBox是一个简单的让你的某些元素在滚出视图后自动浮动在
 
 * 版本：1.0
 * 作者：隐若
-* demo：[http://gallery.kissyui.com/float_box/1.0/demo/index.html](http://gallery.kissyui.com/float_box/1.0/demo/index.html)
+* demo：[http://gallery.kissyui.com/FloatBox/1.0/demo/index.html](http://gallery.kissyui.com/FloatBox/1.0/demo/index.html)
 
 ## 初始化组件
 		
