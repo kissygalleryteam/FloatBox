@@ -1,8 +1,8 @@
 {
     "name": "FloatBox",
-    "comName":"Float_box",
+    "comName":"FloatBox",
     "version": "1.1",
-    "desc": "",
+    "desc": "FloatBox是一个简单的让你的某些元素在滚出视图后自动浮动在页面顶端的组件",
     "tag":"float,fixed",
     "githubName":"neekey",
     "author": {

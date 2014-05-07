@@ -1,7 +1,7 @@
 /**
  * @fileoverview 
  * @author 隐若<yinruo.nyj@taobao.com>
- * @module float_box
+ * @module FloatBox
  **/
 KISSY.add(function(S, Component) {
 

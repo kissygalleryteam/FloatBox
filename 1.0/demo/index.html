@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Float_box的demo</title>
+    <title>FloatBox的demo</title>
     <script src="http://g.tbcdn.cn/kissy/k/1.4.1/seed-min.js" charset="utf-8"></script>
     <link rel="stylesheet" href="http://g.tbcdn.cn/kissy/k/1.3.0/css/dpl/base-min.css">
     <style>
@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-<h2>Float_box的demo</h2>
+<h2>FloatBox的demo</h2>
 
 <div class="float-container J_FloatContainer">
 
@@ -161,7 +161,7 @@
         S.config({
             packages: [
                 {
-                    name: "gallery/float_box",
+                    name: "gallery/FloatBox",
                     path: srcPath,
                     charset: "utf-8",
                     ignorePackageNameInUri: true
@@ -170,8 +170,8 @@
         });
     }
 
-    S.use('gallery/float_box/1.0/index', function (S, Float_box) {
-        new Float_box({
+    S.use('gallery/FloatBox/1.0/index', function (S, FloatBox) {
+        new FloatBox({
             container: '.J_FloatContainer',
             floats: '.J_FloatTitle'
         });
