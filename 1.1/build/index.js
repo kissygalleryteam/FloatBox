@@ -1,33 +1,33 @@
 /*
 combined files : 
 
-1.1/index
+gallery/FloatBox/1.1/index
 
 */
 /**
  * @fileoverview
  * @author 隐若<yinruo.nyj@taobao.com>
- * @module float_box
+ * @module FloatBox
  **/
-KISSY.add('1.1/index',function (S, Node, DOM, Base) {
+KISSY.add('gallery/FloatBox/1.1/index',function (S, Node, DOM, Base) {
 
     /**
      * 浮动组建：当多个元素满足浮动条件时，只浮动最下方的元素
      * @param {Object} config
      * @param {String|element} config.floats 需要浮动的元素
      * @param {String|element} config.container 浮动的元素的外层容器
-     * @class Float_box
+     * @class FloatBox
      * @constructor
      * @extends Base
      */
-    function Float_box(config) {
+    function FloatBox(config) {
         var self = this;
         //调用父类构造函数
-        Float_box.superclass.constructor.call(self, config);
+        FloatBox.superclass.constructor.call(self, config);
         this._init.apply(this, arguments);
     }
 
-    S.extend(Float_box, Base, /** @lends Float_box.prototype*/{
+    S.extend(FloatBox, Base, /** @lends FloatBox.prototype*/{
 
         _init: function( conf ) {
             var self = this;
@@ -214,8 +214,8 @@ KISSY.add('1.1/index',function (S, Node, DOM, Base) {
                 item.data( 'floated', false );
             }
         }
-    }, {ATTRS : /** @lends Float_box*/{
+    }, {ATTRS : /** @lends FloatBox*/{
 
     }});
-    return Float_box;
+    return FloatBox;
 }, {requires:['node', 'dom', 'base']});

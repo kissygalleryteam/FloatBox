@@ -1,3 +1,3 @@
 config({
-    'gallery/float_box/index': {alias: ['gallery/float_box/1.0/index']}
+    'gallery/FloatBox/index': {alias: ['gallery/FloatBox/1.0/index']}
 });

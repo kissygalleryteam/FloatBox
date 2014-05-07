@@ -10,8 +10,8 @@ FloatBox是一个简单的让你的某些元素在滚出视图后自动浮动在
 
 ## 初始化组件
 		
-    S.use('gallery/float_box/1.0/index', function (S, Float_box) {
-         var float_box = new Float_box({
+    S.use('gallery/FloatBox/1.0/index', function (S, FloatBox) {
+         var FloatBox = new FloatBox({
               container: '.J_FloatContainer', // 滚动的外层容器
               floats: '.J_FloatTitle'         // 需要浮动的元素钩子
          });
